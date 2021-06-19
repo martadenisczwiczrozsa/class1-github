@@ -8,9 +8,9 @@ public class Program {
 
         Scanner sc = new Scanner(System.in);
 
-        System.out.print("Enter a phrase: ");
+        System.out.print("Enter a phrase A: ");
         String phraseA = sc.nextLine();
-        System.out.print("Enter number b: ");
+        System.out.print("Enter a phrase B: ");
         String phraseB = sc.nextLine();
 
         int biggest = biggestSentence(phraseA, phraseB);
