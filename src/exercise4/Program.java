@@ -10,7 +10,7 @@ public class Program {
 
         int[] arrayNumbers = new int[5];
 
-        System.out.printf("Enter a target number: ");
+        System.out.print("Enter a target number: ");
         int target = sc.nextInt();
 
         for (int i = 0; i < 5; i++) {
