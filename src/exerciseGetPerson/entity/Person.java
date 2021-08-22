@@ -1,4 +1,4 @@
-package exercise8.entity;
+package exerciseGetPerson.entity;
 
 public class Person {
 

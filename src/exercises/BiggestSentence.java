@@ -1,8 +1,8 @@
-package exercise2;
+package exercises;
 
 import java.util.Scanner;
 
-public class Program {
+public class BiggestSentence {
 
     public static void main(String[] args) {
 

@@ -1,6 +1,6 @@
-package exercise8;
+package exerciseReturnListPerson;
 
-import exercise8.entity.Person;
+import exerciseReturnListPerson.entity.Person;
 
 import java.util.ArrayList;
 import java.util.List;

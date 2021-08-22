@@ -1,6 +1,6 @@
-package exercise9;
+package exerciseGetListPerson;
 
-import exercise9.entity.Person;
+import exerciseGetListPerson.entity.Person;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -15,7 +15,7 @@ public class Program {
 
         int n = 5;
 
-        List<Person> resultList = getPerson(n);
+        List<Person> resultList = getListPerson(n);
 
         for (int i = 0; i < resultList.size(); i++) {
             Person person = resultList.get(i);
@@ -24,7 +24,7 @@ public class Program {
         }
     }
 
-    public static List<Person> getPerson(int n){
+    public static List<Person> getListPerson(int n){
         List<Person> resultList = new ArrayList<>();
 
         for (int i = 0; i < n; i ++) {

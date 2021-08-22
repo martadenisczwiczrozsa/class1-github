@@ -1,9 +1,9 @@
-package exercise10;
+package exercises;
 
 import java.util.ArrayList;
 import java.util.List;
 
-public class Program {
+public class GetNumber {
 
     public static void main(String[] args) {
 

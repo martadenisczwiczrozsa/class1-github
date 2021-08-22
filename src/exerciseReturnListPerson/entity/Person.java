@@ -1,4 +1,4 @@
-package exercise6.entity;
+package exerciseReturnListPerson.entity;
 
 public class Person {
 

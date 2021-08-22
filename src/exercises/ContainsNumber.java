@@ -1,8 +1,9 @@
-package exercise4;
+package exercises;
 
+import java.util.List;
 import java.util.Scanner;
 
-public class Program {
+public class ContainsNumber {
 
     public static void main(String[] args) {
 
@@ -17,19 +18,18 @@ public class Program {
             System.out.printf("Enter a %d° number: ", i + 1);
             arrayNumbers[i] = sc.nextInt();
         }
-        int countTarget = countTargetNumber(arrayNumbers, target);
-        System.out.println(countTarget);
+        boolean targetNumber = containsNumber(arrayNumbers, target);
+        System.out.println(targetNumber);
         sc.close();
 
     }
 
-    public static int countTargetNumber(int arrayNumbers[], int target) {
-        int count = 0;
+    public static boolean containsNumber(int arrayNumbers[], int target) {
         for (int i = 0; i < arrayNumbers.length; i++) {
             if (target == arrayNumbers[i]) {
-                count++;
+                return true;
             }
         }
-        return count;
+        return false;
     }
 }

@@ -1,6 +1,6 @@
-package exercise11;
+package exercises;
 
-public class Program {
+public class ReturnArrayNumbers {
 
     public static void main(String[] args) {
 

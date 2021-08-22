@@ -1,8 +1,8 @@
-package exercise1;
+package exercises;
 
 import java.util.Scanner;
 
-public class Program {
+public class HigherNumber {
 
     public static void main(String[] args) {
 

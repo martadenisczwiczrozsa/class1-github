@@ -1,6 +1,6 @@
-package exercise6;
+package exerciseGetPerson;
 
-import exercise6.entity.Person;
+import exerciseGetPerson.entity.Person;
 
 import java.util.ArrayList;
 import java.util.List;
