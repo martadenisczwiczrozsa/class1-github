@@ -1,6 +1,7 @@
 package exerciseGetListPerson;
 
 import exerciseGetListPerson.entity.Person;
+
 import java.util.ArrayList;
 import java.util.List;
 
@@ -24,13 +25,13 @@ public class Program {
         }
     }
 
-    public static List<Person> getListPerson(int n){
+    public static List<Person> getListPerson(int n) {
         List<Person> resultList = new ArrayList<>();
 
-        for (int i = 0; i < n; i ++) {
+        for (int i = 0; i < n; i++) {
             int id = i;
-            String nameId = "Gandalf" + id ;
-            String name = "Gandalf" ;
+            String nameId = "Gandalf" + id;
+            String name = "Gandalf";
             Person person = new Person(nameId, name, id);
             resultList.add(person);
         }

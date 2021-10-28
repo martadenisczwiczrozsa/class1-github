@@ -20,6 +20,7 @@ public class Person {
         this.id = id;
 
     }
+
     public int getId() {
         return id;
     }
@@ -47,7 +48,7 @@ public class Person {
     @Override
     public String toString() {
         return name + '\n' +
-               nameId
+                nameId
                 ;
     }
 }

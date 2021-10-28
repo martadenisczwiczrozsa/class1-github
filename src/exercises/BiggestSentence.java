@@ -21,7 +21,7 @@ public class BiggestSentence {
     }
 
     public static int biggestSentence(String phraseA, String phraseB) {
-        if(phraseA.length() > phraseB.length()) {
+        if (phraseA.length() > phraseB.length()) {
             return 1;
         } else if (phraseA.length() == phraseB.length()) {
             return 0;

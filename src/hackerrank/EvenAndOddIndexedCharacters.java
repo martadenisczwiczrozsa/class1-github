@@ -20,7 +20,7 @@ public class EvenAndOddIndexedCharacters {
         List<String> even = new ArrayList<>();
         List<String> odd = new ArrayList<>();
 
-        for(int i = 0; i < T; i++) {
+        for (int i = 0; i < T; i++) {
             System.out.print("Enter a string: ");
             String S = sc.nextLine();
 
@@ -31,7 +31,7 @@ public class EvenAndOddIndexedCharacters {
                     odd.add(S.charAt(j) + "");
                 }
             }
-            System.out.print(even.stream().collect(joining("")) + " " + odd.stream().collect(joining(""))+ "\n");
+            System.out.print(even.stream().collect(joining("")) + " " + odd.stream().collect(joining("")) + "\n");
             even.clear();
             odd.clear();
         }

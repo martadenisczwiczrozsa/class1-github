@@ -29,16 +29,16 @@ public class GetNumbers {
         sc.close();
     }
 
-    public static List<Integer> getNumbers(List<Integer> number, int target){
-        
+    public static List<Integer> getNumbers(List<Integer> number, int target) {
+
         List<Integer> numbersList = new ArrayList<>();
-        for(int i = 0; i < number.size(); i++) {
+        for (int i = 0; i < number.size(); i++) {
             Integer currentNumber = number.get(i);
-            if(currentNumber == target){
+            if (currentNumber == target) {
                 numbersList.add(currentNumber);
             }
         }
         return numbersList;
-        
+
     }
 }

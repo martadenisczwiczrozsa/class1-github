@@ -20,9 +20,10 @@ public class Program {
         sc.close();
 
     }
+
     public static List<Person> getPerson(int n) {
         List<Person> people = new ArrayList<>();
-        for(int i = 0; i < n; i++) {
+        for (int i = 0; i < n; i++) {
             int id = i;
             Person person = new Person(id);
             people.add(person);

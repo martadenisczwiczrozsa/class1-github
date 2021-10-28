@@ -22,12 +22,12 @@ public class DiagonalDifference {
         int sumRight = 0;
         int sumleft = 0;
 
-         for (int i = 0; i < arr.length; i++) {
-             sumRight += arr[i][i];
+        for (int i = 0; i < arr.length; i++) {
+            sumRight += arr[i][i];
         }
 
         for (int i = 0; i < arr.length; i++) {
-            sumleft+= arr[i][arr.length - 1 - i];
+            sumleft += arr[i][arr.length - 1 - i];
         }
 
         int result = sumRight - sumleft;

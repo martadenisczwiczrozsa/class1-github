@@ -19,13 +19,13 @@ public class CountNumbers {
 
     }
 
-    public static List<Integer> countNumbers(List<Integer> numbers){
-        int highestNumber =  Integer.MIN_VALUE;
+    public static List<Integer> countNumbers(List<Integer> numbers) {
+        int highestNumber = Integer.MIN_VALUE;
         int smallestNumber = Integer.MAX_VALUE;
 
         List<Integer> number = new ArrayList<>();
 
-        for(int i = 0; i < numbers.size(); i++) {
+        for (int i = 0; i < numbers.size(); i++) {
             Integer currentNumber = numbers.get(i);
             if (currentNumber > highestNumber) {
                 highestNumber = currentNumber;

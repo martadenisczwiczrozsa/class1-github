@@ -33,16 +33,16 @@ public class Program {
 
     }
 
-    public static List<Person> getPerson(List<Person> personList, int targetId){
+    public static List<Person> getPerson(List<Person> personList, int targetId) {
 
         List<Person> resultList = new ArrayList<>();
 
-        for(int i = 0; i < personList.size(); i++) {
+        for (int i = 0; i < personList.size(); i++) {
 
             Person person = personList.get(i);
             Integer currentNumber = person.getId();
 
-            if(currentNumber == targetId){
+            if (currentNumber == targetId) {
                 resultList.add(person);
             }
         }

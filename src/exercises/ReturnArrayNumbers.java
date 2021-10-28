@@ -17,7 +17,7 @@ public class ReturnArrayNumbers {
         }
     }
 
-    public static int[] arrayNumbers (int number) {
+    public static int[] arrayNumbers(int number) {
 
         int[] arrayNumber = new int[number];
 

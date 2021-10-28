@@ -7,7 +7,7 @@ public class PersonInitialAge {
     private int age;
 
     public PersonInitialAge(int initialAge) {
-        if(initialAge < 0) {
+        if (initialAge < 0) {
             System.out.println("Age is not valid, setting age to 0.");
             this.age = 0;
         } else {
@@ -19,8 +19,8 @@ public class PersonInitialAge {
         // Write code determining if this person's age is old and print the correct statement:
         String result;
         if (age < 13) {
-            result= "You are young.";
-        } else  if (age >= 13 && age < 18){
+            result = "You are young.";
+        } else if (age >= 13 && age < 18) {
             result = "You are a teenager.";
         } else {
             result = "You are old.";

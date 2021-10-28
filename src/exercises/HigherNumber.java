@@ -19,7 +19,7 @@ public class HigherNumber {
     }
 
     public static int higherNumber(int a, int b) {
-        if(a > b) {
+        if (a > b) {
             return 1;
         } else if (a == b) {
             return 0;

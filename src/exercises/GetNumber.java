@@ -24,7 +24,7 @@ public class GetNumber {
     public static List<Number> getNumber(int n) {
 
         List<Number> resultList = new ArrayList<>();
-        for (int i = 0; i < n; i ++) {
+        for (int i = 0; i < n; i++) {
             resultList.add(i);
         }
         return resultList;
