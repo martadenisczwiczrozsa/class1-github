@@ -4,7 +4,7 @@ public class SmallestIntegerDivisible {
     public static void main(String[] args) {
 
         int number = getNumberDivisibleFor(20);
-        System.out.println(number);
+        System.out.println("\nO menor número inteiro que pode ser divisível por 1 a 20 é: " + number);
     }
 
     public static int getNumberDivisibleFor (int target) {
