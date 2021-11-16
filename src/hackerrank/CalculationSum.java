@@ -10,7 +10,6 @@ public class CalculationSum {
 
        int number = 7;
 
-
        List<Integer> resultFinal = calculation(number);
 
        System.out.println(resultFinal);
